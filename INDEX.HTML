@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ALL ABOUT HTML</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    header, footer {
+      background-color: rgb(214, 78, 15);
+      color: white;
+      padding: 10px;
+    }
+
+    img {
+      width: 450px;
+      border-radius: 20px;
+      display: block;
+      margin: 10px auto;
+    }
+
+    .HEADING {
+      color: #0e0d0d;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 15px;
+    }
+
+    .hihtml {
+      background-color: rgb(214, 78, 15);
+      padding: 20px;
+      border-radius: 20px;
+      color: rgb(242, 233, 233);
+      font-family: monospace;
+      overflow-x: auto;
+    }
+
+    .name {
+      color: rgb(214, 78, 15);
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 15px;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 12px;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+      text-align: left;
+    }
+
+    li {
+      font-size: 12px;
+      margin-bottom: 10px;
+      color: #111;
+    }
+
+    pre {
+      background-color: rgb(214, 78, 15);
+      padding: 8px;
+      border-radius: 20px;
+      color: rgb(242, 233, 233);
+      font-family: monospace;
+      overflow-x: auto;
+    }
+
+    .NOTE {
+      background-color: rgb(231, 240, 159);
+      color: #0e0e0e;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    a {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 10px 15px;
+      background-color: rgb(214, 78, 15);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background-color: rgb(180, 60, 10);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h3>UNDERSTAND HTML WITH LAIBA NAHEED</h3>
+  </header>
+
+  <p class="HEADING">All About HTML!!</p>
+
+  <p class="name">Table of Content</p>
+  <ul>
+    <li><a href="#html1">What is HTML?</a></li>
+    <li><a href="#html2">A Simple HTML Document</a></li>
+    <li><a href="#html3">What is an HTML Element?</a></li>
+    <li><a href="#html4">Web Browsers</a></li>
+    <li><a href="#html5">HTML Page Structure</a></li>
+  </ul>
+
+  <div class="hihtml">
+    <img src="images.png" alt="HTML illustration" />
+  </div>
+
+  <p class="name" id="html1">What is HTML?</p>
+  <ul>
+    <li>HTML stands for Hyper Text Markup Language</li>
+    <li>HTML is the standard markup language for creating Web pages</li>
+    <li>HTML describes the structure of a Web page</li>
+    <li>HTML consists of a series of elements</li>
+    <li>HTML elements tell the browser how to display the content</li>
+    <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+  </ul>
+
+  <p class="name" id="html2">A Simple HTML Document</p>
+  <div class="hihtml">
+    <img src="Capture.PNG" alt="Simple HTML document example" />
+  </div>
+
+  <p class="name" id="html3">What is an HTML Element?</p>
+  <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+  <pre><code>&lt;tagname&gt;Content goes here...&lt;/tagname&gt;</code></pre>
+  <p>The HTML element is everything from the start tag to the end tag:</p>
+  <pre><code>&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;</code></pre>
+
+  <div class="NOTE">
+    <p><strong>Note:</strong> Some HTML elements have no content (like the <code>&lt;br&gt;</code> element). These elements are called empty elements and do not have an end tag!</p>
+  </div>
+
+  <p class="name" id="html4">Web Browsers</p>
+  <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+  <p>A browser does not display the HTML tags but uses them to determine how to display the document:</p>
+  <div class="hihtml">
+    <img src="WEB BR.PNG" alt="Web browser rendering HTML" />
+  </div>
+
+  <p class="name" id="html5">HTML Page Structure</p>
+  <p>Below is a visualization of an HTML page structure:</p>
+  <div class="hihtml">
+    <img src="STRU.PNG" alt="HTML Page Structure Diagram" />
+  </div>
+
+  <div class="NOTE">
+    <p><strong>Note:</strong> The content inside the <code>&lt;body&gt;</code> section will be displayed in a browser. The content inside the <code>&lt;title&gt;</code> element will be shown in the browser's title bar or tab.</p>
+  </div>
+
+  <a href="quiz.html">ARE YOU READY FOR QUIZ!!</a>
+
+  <footer>
+    <p>Created by Laiba Naheed | 3-7-2025</p>
+  </footer>
+
+</body>
+</html>
